@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+
+body {
+  color: white;
+  margin: 0;
+  font-family: "Great Vibes", cursive;
+}
+
+
+
+#header {
+  background-color: #2f2f2f;
+  height: 150px;
+  position: sticky;
+  line-height: 150px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+#header-nav a:hover {
+  color: gray;
+}
+#header-title {
+  font-family: "Great Vibes", cursive;
+  display: block;
+  float: left;
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#header-nav {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  float: right;
+  margin_top: 0;
+  margin-right: 20px;
+  font-size: 30px;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 40px;
+}
+
+
+
+.home-picture img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  z-index: -1;
+}
+.home-introduction {
+  font-family: "Limelight", sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  left: 0px;
+}
+.home-description {
+  font-family: "Limelight", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  left: 325px;
+}
+
+
+
+.body-header {
+  display: inline-block;
+  position: relative;
+  top: -55px;
+}
+.body-header img {
+  z-index: -1;
+  height: 250px;
+  width: 757.5px;
+}
+.body-header p {
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 590px;
+}
+.body-p1 {
+  float: left;
+  display: inline;
+  top: 20px;
+}
+.body-p1 img {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  padding-left: 150px;
+  margin-top: 90px;
+}
+.body-p1 p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-left: 400px;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+.experience-header {
+  display: inline;
+  position: relative;
+  top:-55px;
+}
+.experience-header img {
+  z-index: -1;
+  top: 500px;
+  height: 250px;
+  width: 1600px;
+}
+.experience-header p {
+  z-index: auto;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -225px;
+  left: 650px;
+}
+.experience-body1 {
+  float: left;
+  display: inline;
+  top: 20px;
+}
+.experience-body1 h3,h4,h5,li {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-left: 100px;
+  max-width: 900px;
+  margin-top: 40px;
+}
+li {
+    margin: 0;
+    padding: 0.2em;
+}
+.experience-body1 h3,h4,h5 {
+  margin: 0px;
+  padding: 0.2em;
+}
+.experience-body1 img {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  padding-left: 0px;
+  margin-top: 30px;
+  left: 1000px;
+}
+.contact-body {
+  display: inline;
+  top: 20px;
+}
+.contact-body img {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  padding-left: 0px;
+  margin-top: 30px;
+  left: 375px;
+  margin: 30px;
+}
+
+.contact-body h2 {
+  text-align: center;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-left: 300px;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 30px 0;
+  position: fixed;
+  top: 930px;
+  width: 100%;
+}
+#footer p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+#footer-about {
+  background-color: #2f2f2f;
+  padding: 30px 0;
+  position: absolute;
+  top: 1050px;
+  width: 100%;
+}
+#footer-about p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+#footer-contact {
+  background-color: #2f2f2f;
+  padding: 30px 0;
+  position: absolute;
+  top: 1050px;
+  width: 100%;
+}
+#footer-contact p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+#footer-experience {
+  background-color: #2f2f2f;
+  padding: 30px 0;
+  position: absolute;
+  top: 1050px;
+  width: 100%;
+}
+#footer-experience p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
