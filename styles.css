@@ -88,7 +88,7 @@ body {
 .body-header img {
   z-index: -1;
   height: 250px;
-  width: 757.5px;
+  width: 50%;
 }
 .body-header p {
   font-size: 80px;
